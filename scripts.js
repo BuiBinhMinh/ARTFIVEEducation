@@ -233,6 +233,17 @@ const contracts = [
     pdfUrl: "https://drive.google.com/file/d/1731fEaRhoVQflKEj1QFaOHM0k6-wISE4/view?usp=drive_link",
     content: `<!-- GIỮ NỘI DUNG CHI TIẾT BẠN ĐÃ CÓ Ở TRƯỚC -->`
   },
+  {
+    id: 4,
+    title: "AI Chatbot Hỗ trợ Học tập",
+    description: "Phát triển chatbot AI hỗ trợ học tập cho học sinh THPT",
+    date: "2024-03-10",
+    status: "Đang thực hiện",
+    value: "800 triệu VNĐ",
+    image: "https://cdn.pixabay.com/photo/2023/04/06/15/50/chatbot-7904738_1280.jpg",
+    pdfUrl: "https://drive.google.com/file/d/1731fEaRhoVQflKEj1QFaOHM0k6-wISE4/view?usp=drive_link",
+    content: `<!-- GIỮ NỘI DUNG CHI TIẾT BẠN ĐÃ CÓ Ở TRƯỚC -->`
+  },
   // ...Các hợp đồng 4-8 của bạn giữ nguyên (thêm pdfUrl nếu có)
 ];
 

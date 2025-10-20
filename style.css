@@ -693,6 +693,9 @@ body {
             cursor: pointer;
             position: relative;
             overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
         }
 
         .service-card:hover {
@@ -718,6 +721,17 @@ body {
             transform: translateY(-4px) scale(1.03);
             box-shadow: 0 20px 60px rgba(215,176,113,0.28);
             opacity: 0.98;
+        }
+
+        /* Make the list grow to push button to bottom */
+        .service-card ul {
+            flex-grow: 1;
+        }
+
+        .interactive-button {
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
         }
 
         .interactive-button {
